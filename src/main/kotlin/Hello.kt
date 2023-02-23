@@ -20,7 +20,6 @@ fun randomDay() : String {
         "Friday", "Saturday", "Sunday")
     return week[Random().nextInt(week.size)]
 }
-
 fun fishFood(day : String) : String {
     var food = ""
     when (day) {
