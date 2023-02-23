@@ -1,4 +1,3 @@
-//import java.util.Random
 import java.util.*
 
 //fun main(args: Array<String>) {
@@ -21,8 +20,6 @@ fun randomDay() : String {
         "Friday", "Saturday", "Sunday")
     return week[Random().nextInt(week.size)]
 }
-
-
 
 fun fishFood(day : String) : String {
     var food = ""
@@ -48,4 +45,3 @@ fun feedTheFish(){
 fun main(args: Array<String>) {
     feedTheFish()
 }
-
