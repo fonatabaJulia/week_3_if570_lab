@@ -44,23 +44,23 @@ fun feedTheFish(){
 }
 fun main(args: Array<String>) {
     feedTheFish()
-    swim()
-    swim("slow")
-    swim(speed="turtle-like")
+//    swim()
+//    swim("slow")
+//    swim(speed="turtle-like")
 }
 
-fun swim(speed: String = "fast") {
-    println("swimming $speed")
-}
-
-fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = 22 ): Boolean {
-    return when {
-        isTooHot(temperature) -> true
-        isDirty(dirty) ->true
-        isSunday(day) -> true
-        else -> false
-    }
-}
+//fun swim(speed: String = "fast") {
+//    println("swimming $speed")
+//}
+//
+//fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = 22 ): Boolean {
+//    return when {
+//        isTooHot(temperature) -> true
+//        isDirty(dirty) ->true
+//        isSunday(day) -> true
+//        else -> false
+//    }
+//}
 
 fun isTooHot(temperature: Int) = temperature > 30
 
