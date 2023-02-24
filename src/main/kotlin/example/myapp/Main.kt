@@ -29,7 +29,7 @@ fun buildAquarium(){
 //        get() = width * height * length / 1000
 
 }
-
+fun eat(){}
 fun makeFish() {
     val shark = Shark()
     val pleco = Plecostomus()
@@ -39,6 +39,7 @@ fun makeFish() {
     println("Placostomus: ${pleco.color}")
     pleco.eat()
 }
+
 
 
 

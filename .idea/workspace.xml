@@ -58,6 +58,13 @@
   }
 }</component>
   <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="DecorationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.myapp.decor.DecorationKt" />
+      <module name="HelloKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloKt" type="JetRunConfigurationType">
       <option name="MAIN_CLASS_NAME" value="HelloKt" />
       <module name="HelloKotlin" />
@@ -77,6 +84,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.DecorationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677223457117</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Comparing abstract classes and interface">
+      <created>1677225143090</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225143090</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +251,9 @@
     <MESSAGE value="Creating a class" />
     <MESSAGE value="Adding class constructor" />
     <MESSAGE value="Learning about visibility modifiers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning about visibility modifiers" />
+    <MESSAGE value="Comparing abstract classes and interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparing abstract classes and interface" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloKotlin$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1677175255594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
